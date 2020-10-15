@@ -51,7 +51,7 @@ include 'dbconnect.php';
 							<td><?php echo $brand['id']; ?></td>
 							<td><?php echo $brand['name']; ?></td>
 							
-							<td><!-- <a href="#" class="btn btn-outline-primary btn-sm">Detail</a>  --><a href="#" class="btn btn-outline-warning btn-sm ml-5">Edit</a> <a href="brand_delete.php?id=<?php echo $brand['id'] ?>" class="btn btn-outline-danger btn-sm ml-5">Delete</a></td>
+							<td><!-- <a href="#" class="btn btn-outline-primary btn-sm">Detail</a>  --><a href="brand_edit.php?id=<?php echo $brand['id'] ?>" class="btn btn-outline-warning btn-sm ml-5">Edit</a> <a href="brand_delete.php?id=<?php echo $brand['id'] ?>" class="btn btn-outline-danger btn-sm ml-5">Delete</a></td>
 
 						</tr>
 

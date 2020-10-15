@@ -1,4 +1,8 @@
 <?php 
+
+  session_start();
+  if (isset($_SESSION['loginuser']) && $_SESSION['loginuser']['role_name']=="admin") {
+
   include 'include/header.php';
  ?>
 
@@ -296,6 +300,9 @@
             </div>
           </div>
 
-      <?php 
-include 'include/footer.php';
-       ?>
+    <?php 
+  include 'include/footer.php';
+}else{
+  header("location:../index.php");
+}
+ ?>

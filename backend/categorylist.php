@@ -50,7 +50,7 @@ include 'dbconnect.php';
 						<tr>
 							<td><?php echo $category['id']; ?></td>
 							<td><?php echo $category['name']; ?></td>
-							<td><a href="#" class="btn btn-outline-warning btn-sm ml-5">Edit</a> <a href="category_delete.php?id=<?php echo $category['id'] ?>" class="btn btn-outline-danger btn-sm ml-5">Delete</a></td>
+							<td><a href="category_edit.php?id=<?php echo $category['id'] ?>" class="btn btn-outline-warning btn-sm ml-5">Edit</a> <a href="category_delete.php?id=<?php echo $category['id'] ?>" class="btn btn-outline-danger btn-sm ml-5">Delete</a></td>
 
 						</tr>
 

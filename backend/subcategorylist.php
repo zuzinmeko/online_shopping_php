@@ -51,7 +51,7 @@ include 'dbconnect.php';
 							<td><?php echo $subcategory['id']; ?></td>
 							<td><?php echo $subcategory['name']; ?></td>
 							<td>
-<!-- <a href="sub_detail.php?id=<?php echo $subcategory['id'] ?>" class="btn btn-outline-primary btn-sm">Detail</a> --> <a href="#" class="btn btn-outline-warning btn-sm ml-5">Edit</a> <a href="sub_delete.php?id=<?php echo $subcategory['id'] ?>" class="btn btn-outline-danger btn-sm ml-5">Delete</a></td>
+<a href="subcategory_edit.php?id=<?php echo $subcategory['id'] ?>" class="btn btn-outline-warning btn-sm ml-5">Edit</a> <a href="sub_delete.php?id=<?php echo $subcategory['id'] ?>" class="btn btn-outline-danger btn-sm ml-5">Delete</a></td>
 
 						</tr>
 
